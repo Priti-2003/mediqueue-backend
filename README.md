@@ -70,3 +70,48 @@
 ---
 
 ## 📁 Project Structure
+```bash
+src/
+ ├── controller/
+ ├── service/
+ ├── repository/
+ ├── entity/
+ ├── dto/
+ ├── security/
+ └── config/
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/Priti-2003/mediqueue-backend.git
+
+cd mediqueue-backend
+
+mvn clean install
+
+mvn spring-boot:run
+```
+
+---
+
+## 🔗 API Testing
+
+Use Postman or Swagger UI to test REST APIs.
+
+Example Endpoints:
+
+```http
+POST /api/auth/login
+POST /api/appointments/book
+GET  /api/queue/live
+```
+
+---
+
+## 👩‍💻 Developed By
+
+### Priti Priyanka Dash
+B.Tech CSE | Java Full Stack Developer
